@@ -1,8 +1,6 @@
 {
   "name": "angular-flask-heroku-example",
-  "scripts": {
-    "postinstall": "ng build --prod"
-  },
+  "scripts": {},
   "env": {
     "NPM_CONFIG_PRODUCTION": {
       "required": true
