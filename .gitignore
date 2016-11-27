@@ -32,3 +32,10 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+
+# Python files
+*.pyc
+venv/
+
+# Environment files
+.env
