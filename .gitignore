@@ -36,3 +36,6 @@ Thumbs.db
 # Python files
 *.pyc
 venv/
+
+# Environment files
+.env
