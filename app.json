@@ -3,13 +3,16 @@
   "scripts": {},
   "env": {
     "NPM_CONFIG_PRODUCTION": {
-      "required": true
+      "required": true,
+      "value": "false"
     },
     "FLASK_APP": {
-      "required": true
+      "required": true,
+      "value": "app.py"
     },
     "FLASK_DEBUG": {
-      "required": true
+      "required": true,
+      "value": "0"
     }
   },
   "formation": {},
