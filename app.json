@@ -1,0 +1,21 @@
+{
+  "name": "angular-flask-heroku-example",
+  "scripts": {
+    "postinstall": "ng build --prod"
+  },
+  "env": {
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    }
+  },
+  "formation": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
