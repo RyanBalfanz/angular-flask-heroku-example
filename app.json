@@ -4,6 +4,12 @@
   "env": {
     "NPM_CONFIG_PRODUCTION": {
       "required": true
+    },
+    "FLASK_APP": {
+      "required": true
+    },
+    "FLASK_DEBUG": {
+      "required": true
     }
   },
   "formation": {},
